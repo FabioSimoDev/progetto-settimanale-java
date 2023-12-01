@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b505b7d4-33e7-4cd9-b7a5-6cccbc5a3dd6" name="Changes" comment="classe video" />
+    <list default="true" id="b505b7d4-33e7-4cd9-b7a5-6cccbc5a3dd6" name="Changes" comment="classe image">
+      <change afterPath="$PROJECT_DIR$/src/player/MediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/mutlimediaElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/mutlimediaElement.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701435931962</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="classe image">
+      <created>1701436312536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701436312536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +101,7 @@
     <MESSAGE value="classe astratta per tutti i contenuti multimediali, interfaccia per i contenuti riproducibili" />
     <MESSAGE value="classe audio" />
     <MESSAGE value="classe video" />
-    <option name="LAST_COMMIT_MESSAGE" value="classe video" />
+    <MESSAGE value="classe image" />
+    <option name="LAST_COMMIT_MESSAGE" value="classe image" />
   </component>
 </project>

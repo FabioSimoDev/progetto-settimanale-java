@@ -2,7 +2,7 @@ package player;
 
 import player.interfaces.Reproducible;
 
-class Video extends mutlimediaElement implements Reproducible {
+public class Video extends mutlimediaElement implements Reproducible {
     private int duration;
     private int volume;
     private int brightness;

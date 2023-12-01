@@ -1,6 +1,6 @@
 package player;
 
-abstract class mutlimediaElement {
+public abstract class mutlimediaElement {
     protected String title;
 
     public mutlimediaElement(String title){
