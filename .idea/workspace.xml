@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b505b7d4-33e7-4cd9-b7a5-6cccbc5a3dd6" name="Changes" comment="mediaPlayer, main di test. aggiunto sleep() per far attendere 1 secondo durante la riproduzione" />
+    <list default="true" id="b505b7d4-33e7-4cd9-b7a5-6cccbc5a3dd6" name="Changes" comment="sleep() anche al metodo play() della classe Video.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/MediaPlayer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701437488045</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sleep() anche al metodo play() della classe Video.">
+      <created>1701437887557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701437887557</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +113,7 @@
     <MESSAGE value="classe video" />
     <MESSAGE value="classe image" />
     <MESSAGE value="mediaPlayer, main di test. aggiunto sleep() per far attendere 1 secondo durante la riproduzione" />
-    <option name="LAST_COMMIT_MESSAGE" value="mediaPlayer, main di test. aggiunto sleep() per far attendere 1 secondo durante la riproduzione" />
+    <MESSAGE value="sleep() anche al metodo play() della classe Video." />
+    <option name="LAST_COMMIT_MESSAGE" value="sleep() anche al metodo play() della classe Video." />
   </component>
 </project>
