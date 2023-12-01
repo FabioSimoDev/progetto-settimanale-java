@@ -12,7 +12,7 @@ public class Audio extends mutlimediaElement implements Reproducible {
         this.volume = volume;
     }
 
-    public void lowerVolume(){
+    public void decreaseVolume(){
         if(volume > 0) volume--;
     }
 

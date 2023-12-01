@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         mutlimediaElement[] elements = new mutlimediaElement[5];
+        System.out.println(elements.length);
 
         for (int i = 0; i < elements.length; i++) {
             System.out.println("Crea l'elemento " + (i + 1) + ": ");
@@ -60,12 +61,55 @@ public class Main {
         do {
             System.out.println("Inserisci un numero da 1 a 5 per eseguire un elemento multimediale, 0 per uscire:");
             input = scanner.nextInt();
-            if (input > 0 && input <= 5) {
-                mediaPlayer.executeElement(input);
+            scanner.nextLine();
+
+            if (input > 0 && input <= elements.length) {
+                handleMultimediaElement(scanner, elements[input - 1]);
             }
         } while (input != 0);
+
         scanner.close();
 
         //mediaPlayer.executeElement(0);
+    }
+
+    private static void handleMultimediaElement(Scanner scanner, mutlimediaElement element) {
+        if (element instanceof Image) {
+            ((Image)element).show();
+            return;
+        }
+
+        System.out.println("Inserisci 1 per mettere play, 2 per alzare il volume, 3 per abbassarlo:");
+        int action = scanner.nextInt();
+        scanner.nextLine();
+
+        switch (action) {
+            case 1:
+                if (element instanceof Audio) {
+                    ((Audio) element).play();
+                } else {
+                    ((Video) element).play();
+                }
+                break;
+            case 2:
+                if (element instanceof Audio) {
+                    ((Audio) element).increaseVolume();
+                } else {
+                    ((Video) element).increaseVolume();
+                }
+                System.out.println("Volume alzato!");
+                break;
+            case 3:
+
+                if (element instanceof Audio) {
+                    ((Audio) element).decreaseVolume();
+                } else {
+                    ((Video) element).decreaseVolume();
+                }
+                System.out.println("Volume abbassato!");
+                break;
+            default:
+                break;
+        }
     }
 }

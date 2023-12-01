@@ -22,6 +22,14 @@ public class Video extends mutlimediaElement implements Reproducible {
         if(brightness > 0) brightness--;
     }
 
+    public void decreaseVolume(){
+        if(volume > 0) volume--;
+    }
+
+    public void increaseVolume(){
+        volume++;
+    }
+
     @Override
     public void play(){
         for (int i = 0; i < duration; i++) {
