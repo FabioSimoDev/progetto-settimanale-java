@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b505b7d4-33e7-4cd9-b7a5-6cccbc5a3dd6" name="Changes" comment="classe image">
-      <change afterPath="$PROJECT_DIR$/src/player/MediaPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/mutlimediaElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/mutlimediaElement.java" afterDir="false" />
-    </list>
+    <list default="true" id="b505b7d4-33e7-4cd9-b7a5-6cccbc5a3dd6" name="Changes" comment="mediaPlayer, main di test. aggiunto sleep() per far attendere 1 secondo durante la riproduzione" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701436312536</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mediaPlayer, main di test. aggiunto sleep() per far attendere 1 secondo durante la riproduzione">
+      <created>1701437488045</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701437488045</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +102,7 @@
     <MESSAGE value="classe audio" />
     <MESSAGE value="classe video" />
     <MESSAGE value="classe image" />
-    <option name="LAST_COMMIT_MESSAGE" value="classe image" />
+    <MESSAGE value="mediaPlayer, main di test. aggiunto sleep() per far attendere 1 secondo durante la riproduzione" />
+    <option name="LAST_COMMIT_MESSAGE" value="mediaPlayer, main di test. aggiunto sleep() per far attendere 1 secondo durante la riproduzione" />
   </component>
 </project>
