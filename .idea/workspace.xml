@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b505b7d4-33e7-4cd9-b7a5-6cccbc5a3dd6" name="Changes" comment="tolta condizione ormai inutile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/MediaPlayer.java" afterDir="false" />
+    <list default="true" id="b505b7d4-33e7-4cd9-b7a5-6cccbc5a3dd6" name="Changes" comment="cambiata la logica del main per accettare input utente.">
+      <change beforePath="$PROJECT_DIR$/src/player/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Video.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701438495827</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cambiata la logica del main per accettare input utente.">
+      <created>1701442388706</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701442388706</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +137,7 @@
     <MESSAGE value="sleep() anche al metodo play() della classe Video." />
     <MESSAGE value="risolto bug, sistemato indice" />
     <MESSAGE value="tolta condizione ormai inutile" />
-    <option name="LAST_COMMIT_MESSAGE" value="tolta condizione ormai inutile" />
+    <MESSAGE value="cambiata la logica del main per accettare input utente." />
+    <option name="LAST_COMMIT_MESSAGE" value="cambiata la logica del main per accettare input utente." />
   </component>
 </project>
