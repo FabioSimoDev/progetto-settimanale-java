@@ -19,6 +19,8 @@ public class MediaPlayer {
             }else if(elements[index] instanceof Image){
                 ((Image) elements[index]).show();
             }
+        }else{
+            System.out.println("elemento non valido");
         }
     }
 }
