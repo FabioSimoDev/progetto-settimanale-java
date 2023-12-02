@@ -59,12 +59,18 @@ public class Main {
 
         int input;
         do {
-            System.out.println("Inserisci un numero da 1 a 5 per eseguire un elemento multimediale, 0 per uscire:");
+            System.out.println("Inserisci un numero da 1 a 5 per eseguire un elemento multimediale, \n" +
+                    "6 per una lista degli elementi, 0 per uscire:");
             input = scanner.nextInt();
             scanner.nextLine();
 
             if (input > 0 && input <= elements.length) {
-                handleMultimediaElement(scanner, elements[input - 1]);
+                handleMultimediaElement(scanner, elements[input - 1], mediaPlayer, input);
+            }else if(input == 6){
+                for (mutlimediaElement element : elements) {
+                    System.out.println(element.toString());
+
+                }
             }
         } while (input != 0);
 
@@ -73,9 +79,10 @@ public class Main {
         //mediaPlayer.executeElement(0);
     }
 
-    private static void handleMultimediaElement(Scanner scanner, mutlimediaElement element) {
+    private static void handleMultimediaElement(Scanner scanner, mutlimediaElement element, MediaPlayer mediaPlayer, int index) {
         if (element instanceof Image) {
-            ((Image)element).show();
+//            ((Image)element).show();
+            mediaPlayer.executeElement(index);
             return;
         }
 
@@ -84,32 +91,31 @@ public class Main {
         scanner.nextLine();
 
         switch (action) {
-            case 1:
-                if (element instanceof Audio) {
-                    ((Audio) element).play();
-                } else {
-                    ((Video) element).play();
-                }
-                break;
-            case 2:
+            case 1 ->
+//                if (element instanceof Audio) {
+//                    ((Audio) element).play();
+//                } else {
+//                    ((Video) element).play();
+//                }
+                    mediaPlayer.executeElement(index);
+            case 2 -> {
                 if (element instanceof Audio) {
                     ((Audio) element).increaseVolume();
                 } else {
                     ((Video) element).increaseVolume();
                 }
                 System.out.println("Volume alzato!");
-                break;
-            case 3:
-
+            }
+            case 3 -> {
                 if (element instanceof Audio) {
                     ((Audio) element).decreaseVolume();
                 } else {
                     ((Video) element).decreaseVolume();
                 }
                 System.out.println("Volume abbassato!");
-                break;
-            default:
-                break;
+            }
+            default -> {
+            }
         }
     }
 }

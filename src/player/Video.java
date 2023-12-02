@@ -7,6 +7,16 @@ public class Video extends mutlimediaElement implements Reproducible {
     private int volume;
     private int brightness;
 
+    @Override
+    public String toString() {
+        return "Video{" +
+                "duration=" + duration +
+                ", volume=" + volume +
+                ", brightness=" + brightness +
+                ", title='" + title + '\'' +
+                '}';
+    }
+
     public Video(String title, int duration, int volume, int brightness){
         super(title);
         this.duration = duration;

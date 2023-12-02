@@ -6,6 +6,15 @@ public class Audio extends mutlimediaElement implements Reproducible {
     private int duration;
     private int volume;
 
+    @Override
+    public String toString() {
+        return "Audio{" +
+                "duration=" + duration +
+                ", volume=" + volume +
+                ", title='" + title + '\'' +
+                '}';
+    }
+
     public Audio(String title, int duration, int volume){
         super(title);
         this.duration = duration;
